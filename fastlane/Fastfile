@@ -21,6 +21,6 @@ platform :ios do
     	output_name: "Test")
     increment_build_number
     changelog_from_git_commits
-    upload_to_testflight
+    upload_to_testflight(username: "soriyany.keo@gmail.com")
   end
 end
