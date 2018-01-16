@@ -16,5 +16,6 @@ platform :ios do
   lane :esi_mpoc do
     # add actions here: https://docs.fastlane.tools/actions
     build_app(scheme: "jenkinsfastlane")
+    changelog_from_git_commits
   end
 end
