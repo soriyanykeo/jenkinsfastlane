@@ -23,6 +23,6 @@ platform :ios do
     changelog_from_git_commits
     upload_to_testflight(
     	username: "soriyany.keo@gmail.com",
-    	password" "yany1313KK")
+    	password: "yany1313KK")
   end
 end
